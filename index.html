@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Product Manegment System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="search">
+        <input onkeyup="search(this.value)" id="search" type="text" placeholder="Search">
+    </div>
+    <div class="input">
+        <input id="product" type="text" placeholder="Name">
+        <input id="price" type="number" placeholder="Price">
+        <input id="count" type="number" placeholder="Count">
+        <button id="create">Create</button>
+    </div>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Count</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <tbody id="tbody"></tbody>
+    </table>
+<script src="main.js"></script>
+</body>
+</html>
